@@ -9,7 +9,7 @@ export class Doctor {
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
-    <h2>Doctor {{doctor.name}} details!</h2>
+    <h2>Doctor {{doctor.name}} details!!!!</h2>
     <div>
       <label>name: </label>
       <input [(ngModel)]="doctor.name" placeholder="name">
